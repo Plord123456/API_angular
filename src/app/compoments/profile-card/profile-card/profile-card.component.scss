@@ -1,0 +1,38 @@
+/* src/app/compoments/profile-card/profile-card/profile-card.component.scss */
+
+#container {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 10px;
+  border: 1px solid #ccc; /* Softer border color */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Slightly larger shadow */
+  background-color: #fafafa; /* Softer background color */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Larger shadow on hover */
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #2c3e50; /* Darker text color */
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #7f8c8d; /* Softer text color */
+}
+
+.profile-info .email,
+.profile-info .phone {
+  font-size: 0.9em;
+  color: #95a5a6; /* Softer text color */
+}
